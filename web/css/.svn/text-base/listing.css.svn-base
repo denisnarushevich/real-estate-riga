@@ -1,0 +1,296 @@
+/* 
+    Document   : home
+    Created on : Sep 29, 2011, 12:57:31 PM
+    Author     : rainmaker11
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* content */
+#rightContent > div#cards {
+	margin: 0px -10px;
+	
+	overflow: auto;
+}
+
+#rightContent > div#cards > div.card {
+	float: left;
+	
+	margin: 10px 10px;
+	width: 210px;
+	height: 300px;
+}
+
+#cards > div.card > div.photo {
+	width: 210px;
+	height: 140px;
+	
+	/*background-image: url('../pic/demo-gallery-flat_1.png');*/
+	
+	line-height: 140px; /* for nested image vertical center */
+	text-align: center;
+}
+
+#cards > div.card > div.photo > img {
+	vertical-align: top;
+}
+
+#cards > div.card > div.dataRows > div {
+	height: 24px;
+	border-bottom: 1px dotted #919191;
+	overflow: auto;
+}
+
+#cards > div.card > div.dataRows > div > span {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+#cards > div.card > div.dataRows > div > span.key {
+	float: left;
+	color: #808080;
+}
+
+#cards > div.card > div.dataRows > div > span.value {
+	float: right;
+	color: #222;
+}
+
+
+#cards > div.card > div.foot {
+	overflow: auto;
+	padding-top: 8px;
+}
+
+#cards > div.card > div.foot > div.price {
+	float: left;
+	
+	color: #2e5123;
+	font-size: 13px;
+	font-weight: bold;
+	vertical-align: middle;	
+	line-height: 25px;
+}
+
+#cards > div.card > div.foot > a.moreInfo {
+	float: right;
+	
+	width: 85px;
+}
+/* end content */
+
+/* pager */
+#rightContent > div#pager {
+	padding: 2px 10px;
+	background-color: #799171;
+	
+	margin-right: -10px;
+	
+	overflow: hidden;
+	
+	text-align: center;
+	
+	line-height: 33px;
+}
+
+#pager a.prev {
+	float: left;
+	
+	color: #fff;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	text-transform: uppercase;
+	
+	background: url('../i/gallery-prev-arrow.png') no-repeat 3% 50%;
+	
+	padding-left: 16px;
+}
+
+#pager a.prev.inactive {
+	opacity: 0.6;
+}
+
+#pager a.prev:hover {
+	opacity: 0.6;
+	background-position: 0% 50%;
+}
+
+#pager a.next {
+	float: right;
+	
+	color: #fff;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	text-transform: uppercase;
+	
+	background: url('../i/gallery-next-arrow.png') no-repeat 97% 50%;
+	
+	padding-right: 16px;
+}
+
+#pager a.next.inactive {
+	opacity: 0.6;
+}
+
+#pager a.next:hover {
+	opacity: 0.6;
+	background-position: 100% 50%;
+}
+
+#pager a.pageNum {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	
+	margin: 0px 2px;
+	
+	color: #2e5123;
+	
+	background-color: #fff;
+	
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#pager a.pageNum:hover {
+	color: #fff;
+	
+	background-color: #a0b898;
+}
+
+#pager a.pageNum.current {
+	color: #fff;
+	font-family: 'open sans condensed';
+	font-weight: 600;
+	font-size: 16px;	
+	background-color: #2e5123;
+}
+/* end pager */
+
+/* left column */
+#leftColumn > h1 {
+	padding: 2px 12px; 
+	text-transform: uppercase;
+	color: #808080;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	background: url('../i/left-column-separator.png') no-repeat bottom;
+	text-shadow: #000 1px 1px 1px;
+}
+
+#leftColumn > form {
+	padding: 12px 12px;
+}
+
+#leftColumn > form > div.space {
+	height: 10px;
+}
+
+#leftColumn > form > div.fieldRow {
+	padding: 3px 0px;
+	
+	font-size: 12px;
+	text-align: left;
+}
+
+#leftColumn > form > div.fieldRow > label {
+	font-size: 12px;
+	text-align: left;
+}
+
+#leftColumn > form > div.fieldRow input {
+	float: right;
+	
+	width: 174px;
+	height: 16px;
+	border: 1px solid #8a8a8a;
+	
+	font-size: 12px;
+}
+
+#leftColumn > form > div.fieldRow select {
+	float: right;
+	
+	width: 172px;
+	height: 18px;
+	
+	font-size: 12px;	
+	
+	color: #111;
+}
+
+#leftColumn > form > div.fieldRow select option {
+	color: #111;
+}
+
+#leftColumn > form > div.fieldRowDouble {
+	overflow: auto;
+	
+	padding: 3px 0px;
+	
+	font-size: 12px;
+	text-align: left;	
+}
+
+#leftColumn > form > div.fieldRowDouble > div.left {
+	float: left;
+	
+	width: 130px;
+
+	text-align: left;
+	font-size: 12px;
+}
+
+#leftColumn > form > div.fieldRowDouble > div.left input {
+	float: right;
+	
+	width: 76px;
+	height: 18px;
+	
+	font-size: 12px;
+}
+
+#leftColumn > form > div.fieldRowDouble > div.right {
+	float: right;
+	
+	width: 91px;
+	
+	text-align: left;
+	font-size: 12px;
+}
+
+#leftColumn > form > div.fieldRowDouble > div.right input {
+	float: right;
+	
+	width: 76px;
+	height: 18px;
+	
+	font-size: 12px;
+}
+
+#leftColumn > form > div.checkRow {
+	padding: 6px 0px;
+	font-size: 12px;
+	line-height: 12px;
+	text-indent: 6px;
+}
+
+#leftColumn > form > div.checkRow input {
+	display: block;
+	float: left;
+}
+
+#leftColumn > form > a.filterIt {
+	width: 140px;
+}
+
+/* end left column */

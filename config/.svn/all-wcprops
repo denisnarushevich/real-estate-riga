@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/4537/project/realestateriga/trunk/config
+END
+ProjectConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/4586/project/realestateriga/trunk/config/ProjectConfiguration.class.php
+END
+databases.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/4537/project/realestateriga/trunk/config/databases.yml
+END
+properties.ini
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/4537/project/realestateriga/trunk/config/properties.ini
+END
+rsync_exclude.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/4537/project/realestateriga/trunk/config/rsync_exclude.txt
+END

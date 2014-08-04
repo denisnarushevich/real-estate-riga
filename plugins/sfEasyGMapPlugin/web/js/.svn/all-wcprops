@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/web/js
+END
+sfEasyGMapPlugin.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/web/js/sfEasyGMapPlugin.js
+END
+sfEasyGMapPlugin.sample.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/web/js/sfEasyGMapPlugin.sample.js
+END
+addressGuesser.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/web/js/addressGuesser.js
+END

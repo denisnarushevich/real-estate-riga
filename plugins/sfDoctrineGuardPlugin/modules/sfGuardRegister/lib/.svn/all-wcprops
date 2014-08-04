@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/modules/sfGuardRegister/lib
+END
+BasesfGuardRegisterActions.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/modules/sfGuardRegister/lib/BasesfGuardRegisterActions.class.php
+END
+BasesfGuardRegisterComponents.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/modules/sfGuardRegister/lib/BasesfGuardRegisterComponents.class.php
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/test/unit
+END
+GMapCoordTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/test/unit/GMapCoordTest.php
+END
+GMapBoundsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/test/unit/GMapBoundsTest.php
+END
+GMapOptionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/test/unit/GMapOptionsTest.php
+END
+GMapClientTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/test/unit/GMapClientTest.php
+END
+GMapGeocodedAddressTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/test/unit/GMapGeocodedAddressTest.php
+END
+GMapTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfEasyGMapPlugin/test/unit/GMapTest.php
+END

@@ -1,0 +1,192 @@
+options:
+  type: INNODB
+  collate: utf8_general_ci
+  charset: utf8
+
+News:
+  tableName: news
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    content: { type: string, notnull: true }
+  actAs:
+    Timestampable:
+      created:
+        name: created_at
+        type: timestamp
+    I18n:
+      fields: [content]
+    
+Listing:
+  tableName: listing
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    price: { type: float, notnull: true }
+    city_id: { type: integer, notnull: true }
+    location_id: { type: integer, notnull: true }
+    street: { type: string, notnull: true }
+    is_house: { type: boolean, default: false }
+    area: { type: integer, notnull: true }
+    land_area: { type: integer, notnull: true }
+    rooms: { type: integer, notnull: true }
+    floors: { type: integer, notnull: true }
+    
+    description: { type: string }
+    floor: { type: integer }
+    is_renovated: { type: boolean, default: false }
+    is_furnished: { type: boolean, default: false }
+    for_rent: { type: boolean, default: false }
+    
+    is_active: { type: boolean, default: true }
+    
+    has_videos: { type: boolean, default: false }
+    
+    month_deal: { type: boolean, default: false }
+
+    num_views: { type: integer, default: 0 }
+    
+    google_map_location: { type: string }
+    
+    main_photo: { type: string, notnull: false }
+  actAs:
+    Timestampable:
+      created:
+        name: created_at
+        type: timestamp
+      updated:
+        name: updated_at
+        type: timestamp
+    I18n:
+      fields: [month_deal, description]
+    
+  relations:
+    City:
+      local: city_id
+      foreign: id
+      onDelete: restrict
+    Location:
+      local: location_id
+      foreign: id
+      onDelete: restrict
+
+City:
+  tableName: city
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    name: { type: string, notnull: true }
+  actAs:
+    I18n:
+      fields: [name]
+    
+Location:
+  tableName: location
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    city_id: { type: integer, notnull: true }
+    name: { type: string, notnull: true }
+  relations:
+    City:
+      local: city_id
+      foreign: id
+      onDelete: cascade
+  actAs:
+    I18n:
+      fields: [name]
+
+PropertyPhotos:
+  tableName: property_photos
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    listing_id: { type: integer, notnull: true }
+    filename: { type: string, notnull: true }
+  relations:
+    Listing:
+      local: listing_id
+      foreign: id
+      onDelete: cascade
+      
+Messages:
+  tableName: messages
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    reply_to: { type: integer, notnull: false, default: null }
+    listing_id: { type: integer, notnull: false, default: null }
+    name: { type: varchar(255), notnull: true }
+    company: { type: varchar(255), notnull: false }
+    message: { type: string, notnull: true }
+    contact: { type: string, notnull: true }
+  relations:
+    Messages:
+      local: reply_to
+      foreign: id
+      onDelete: cascade
+    Listing:
+      local: listing_id
+      foreign: id
+      onDelete: cascade
+      
+TextPage:
+  tableName: text_page
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    page_name: { type: varchar(255), notnull: true }
+    content: { type: string, notnull: true }
+  actAs:
+    I18n:
+      fields: [content]
+      
+SliderPhotos:
+  tableName: slider_photos
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    filename: { type: string, notnull: true }
+    
+Advertisement:
+  tableName: advert
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    name: { type: string, notnull: false }
+    filename: { type: string, notnull: true }
+    url: { type: string, notnull: true }
+    active: { type: boolean }
+  actAs:
+    I18n:
+      fields: [active]
+
+Catalogue:
+  tableName:        catalogue
+  columns:
+    cat_id:
+      type:         integer
+      primary:      true
+      autoincrement: true
+    name:           string(100)
+    source_lang:    string(100)
+    target_lang:    string(100)
+    date_created:   integer
+    date_modified:  integer
+    author:         string(255)
+
+TransUnit:
+  tableName:        trans_unit
+  columns:
+    msg_id:
+      type:         integer
+      primary:      true
+      autoincrement: true
+    cat_id:         integer
+    id:             string(255)
+    source:         clob
+    target:         clob
+    comments:       clob
+    date_added:     integer
+    date_modified:  integer
+    author:         string(255)
+    translated:
+      type:         boolean
+      default:      0
+  relations:
+    Catalogue:
+      type:         one
+      foreignType:  many
+      local:        cat_id
+      foreign:      cat_id

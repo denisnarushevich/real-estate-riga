@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfFormExtraPlugin/lib/validator
+END
+sfValidatorBlacklist.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfFormExtraPlugin/lib/validator/sfValidatorBlacklist.class.php
+END
+sfValidatorReCaptcha.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfFormExtraPlugin/lib/validator/sfValidatorReCaptcha.class.php
+END
+sfValidatorDefault.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfFormExtraPlugin/lib/validator/sfValidatorDefault.class.php
+END
+sfValidatorSchemaTimeInterval.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfFormExtraPlugin/lib/validator/sfValidatorSchemaTimeInterval.class.php
+END

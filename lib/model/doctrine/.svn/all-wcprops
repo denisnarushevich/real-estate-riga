@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine
+END
+SliderPhotosTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/SliderPhotosTable.class.php
+END
+Messages.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/Messages.class.php
+END
+TransUnit.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/TransUnit.class.php
+END
+TextPageTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/TextPageTable.class.php
+END
+News.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/News.class.php
+END
+Location.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/Location.class.php
+END
+PropertyPhotos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/PropertyPhotos.class.php
+END
+PropertyPhotosTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/PropertyPhotosTable.class.php
+END
+LocationTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/LocationTable.class.php
+END
+NewsTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/NewsTable.class.php
+END
+TextPage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/TextPage.class.php
+END
+SliderPhotos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/SliderPhotos.class.php
+END
+MessagesTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/MessagesTable.class.php
+END
+TransUnitTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/TransUnitTable.class.php
+END
+CityTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/CityTable.class.php
+END
+Listing.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/Listing.class.php
+END
+Advertisement.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/Advertisement.class.php
+END
+CatalogueTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/CatalogueTable.class.php
+END
+AdvertisementTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/AdvertisementTable.class.php
+END
+Catalogue.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/Catalogue.class.php
+END
+ListingTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/ListingTable.class.php
+END
+City.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/4537/project/realestateriga/trunk/lib/model/doctrine/City.class.php
+END

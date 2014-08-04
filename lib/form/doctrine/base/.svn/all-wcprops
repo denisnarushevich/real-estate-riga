@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base
+END
+BaseLocationTranslationForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseLocationTranslationForm.class.php
+END
+BaseTextPageForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseTextPageForm.class.php
+END
+BaseNewsTranslationForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseNewsTranslationForm.class.php
+END
+BaseListingForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseListingForm.class.php
+END
+BaseSliderPhotosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseSliderPhotosForm.class.php
+END
+BaseAdvertisementForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseAdvertisementForm.class.php
+END
+BaseCityTranslationForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseCityTranslationForm.class.php
+END
+BaseCatalogueForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/4586/project/realestateriga/trunk/lib/form/doctrine/base/BaseCatalogueForm.class.php
+END
+BaseTransUnitForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/4586/project/realestateriga/trunk/lib/form/doctrine/base/BaseTransUnitForm.class.php
+END
+BaseCityForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseCityForm.class.php
+END
+BaseMessagesForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseMessagesForm.class.php
+END
+BaseAdvertisementTranslationForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseAdvertisementTranslationForm.class.php
+END
+BaseListingTranslationForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseListingTranslationForm.class.php
+END
+BaseNewsForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseNewsForm.class.php
+END
+BaseTextPageTranslationForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseTextPageTranslationForm.class.php
+END
+BaseLocationForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BaseLocationForm.class.php
+END
+BasePropertyPhotosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/4537/project/realestateriga/trunk/lib/form/doctrine/base/BasePropertyPhotosForm.class.php
+END

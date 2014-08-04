@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/4586/project/realestateriga/trunk/apps/backend/modules/text_trans/templates
+END
+_ajax_target_field.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/4586/project/realestateriga/trunk/apps/backend/modules/text_trans/templates/_ajax_target_field.php
+END
+_list_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/4586/project/realestateriga/trunk/apps/backend/modules/text_trans/templates/_list_header.php
+END
+_ajax_target.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/4586/project/realestateriga/trunk/apps/backend/modules/text_trans/templates/_ajax_target.php
+END
+ajaxTargetSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/4586/project/realestateriga/trunk/apps/backend/modules/text_trans/templates/ajaxTargetSuccess.php
+END

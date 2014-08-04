@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfThumbnailPlugin-2.0.1/lib
+END
+sfImageMagickAdapter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfThumbnailPlugin-2.0.1/lib/sfImageMagickAdapter.class.php
+END
+sfThumbnail.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfThumbnailPlugin-2.0.1/lib/sfThumbnail.class.php
+END
+sfGDAdapter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/4537/project/realestateriga/trunk/plugins/sfThumbnailPlugin-2.0.1/lib/sfGDAdapter.class.php
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin
+END
+sfGuardUserGroupTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserGroupTable.class.php
+END
+sfGuardUserPermission.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserPermission.class.php
+END
+sfGuardGroup.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroup.class.php
+END
+sfGuardPermissionTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardPermissionTable.class.php
+END
+sfGuardRememberKeyTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKeyTable.class.php
+END
+sfGuardForgotPassword.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardForgotPassword.class.php
+END
+sfGuardUserTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserTable.class.php
+END
+sfGuardGroupPermissionTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroupPermissionTable.class.php
+END
+sfGuardGroupPermission.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroupPermission.class.php
+END
+sfGuardUser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUser.class.php
+END
+sfGuardForgotPasswordTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardForgotPasswordTable.class.php
+END
+sfGuardRememberKey.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKey.class.php
+END
+sfGuardGroupTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroupTable.class.php
+END
+sfGuardPermission.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardPermission.class.php
+END
+sfGuardUserGroup.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserGroup.class.php
+END
+sfGuardUserPermissionTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/4586/project/realestateriga/trunk/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserPermissionTable.class.php
+END

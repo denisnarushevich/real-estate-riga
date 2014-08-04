@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/4537/project/realestateriga/trunk/data/sql
+END
+schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/schema.sql
+END
+cities.sql
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/4537/project/realestateriga/trunk/data/sql/cities.sql
+END

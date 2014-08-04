@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/4537/project/realestateriga/trunk/apps/backend/modules/text_page/lib
+END
+text_pageGeneratorHelper.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/4537/project/realestateriga/trunk/apps/backend/modules/text_page/lib/text_pageGeneratorHelper.class.php
+END
+text_pageGeneratorConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/4537/project/realestateriga/trunk/apps/backend/modules/text_page/lib/text_pageGeneratorConfiguration.class.php
+END

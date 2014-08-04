@@ -1,0 +1,85 @@
+/* content */
+#textualContent {
+	padding: 10px 0px;
+	font-size: 12px;
+	line-height: 1.6;
+	color: #333;
+}
+
+#textualContent * {
+	font-size: 12px;
+	color: #333;
+	line-height: 1.6;
+}
+
+#textualContent p {
+	margin-bottom: 12px;
+}
+/* end content */
+
+/* left column */
+#leftColumn > div {}
+
+#leftColumn > h1 {
+	padding: 2px 12px; 
+	text-transform: uppercase;
+	color: #808080;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	background: url('../i/left-column-separator.png') no-repeat bottom;
+	text-shadow: #000 1px 1px 1px;
+}
+
+#leftColumn > div > div.newsInstance {
+	padding: 10px 12px;
+	padding-bottom: 12px;
+	background: url('../i/left-column-separator.png') no-repeat bottom;
+}
+
+#leftColumn > div > div.newsInstance > div.head {
+	overflow: auto;
+}
+
+#leftColumn > div > div.newsInstance > div.head > div.dateDay {
+	float: left;
+	width: 31px;
+	height: 27px;
+	padding-top: 2px;
+	
+	background: url('../i/left-column-news-date-day-field.png');
+	
+	line-height: 27px;
+	font-weight: bold;
+	color: #222;
+	text-align: center;
+}
+
+#leftColumn > div > div.newsInstance > div.head > div.dateMonthYear {
+	float: left;
+	padding-left: 10px;
+	line-height: 29px;
+	font-size: 12px;
+	color: #808080;
+	text-align: center;
+}
+
+#leftColumn > div > div.newsInstance > p {
+	margin-top: 4px;
+	font-size: 12px;
+	color: #999;
+}
+
+#leftColumn > div > div.newsInstance > a.readMore {
+	display: block;
+	height: 16px;
+	padding: 2px 0px 0px 12px;
+	margin-top: 10px;
+	
+	font-size: 12px;
+	line-height: 16px;
+	color: #c0c0c0;
+	background: url('../i/left-column-small-arrow-right.png') no-repeat 0% 50%;
+}
+
+/* end left column */
