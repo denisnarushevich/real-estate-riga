@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/task
+END
+sfGuardCreateUserTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/task/sfGuardCreateUserTask.class.php
+END
+sfGuardChangePasswordTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/task/sfGuardChangePasswordTask.class.php
+END
+sfGuardAddPermissionTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/task/sfGuardAddPermissionTask.class.php
+END
+sfGuardAddGroupTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/task/sfGuardAddGroupTask.class.php
+END
+sfGuardPromoteSuperAdminTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/task/sfGuardPromoteSuperAdminTask.class.php
+END

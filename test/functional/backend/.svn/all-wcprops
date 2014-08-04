@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/4537/project/realestateriga/trunk/test/functional/backend
+END
+listingActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/4537/project/realestateriga/trunk/test/functional/backend/listingActionsTest.php
+END
+advertisementActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/4537/project/realestateriga/trunk/test/functional/backend/advertisementActionsTest.php
+END
+newsActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/4537/project/realestateriga/trunk/test/functional/backend/newsActionsTest.php
+END
+slider_photosActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/4537/project/realestateriga/trunk/test/functional/backend/slider_photosActionsTest.php
+END
+text_pageActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/4537/project/realestateriga/trunk/test/functional/backend/text_pageActionsTest.php
+END
+messagesActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/4537/project/realestateriga/trunk/test/functional/backend/messagesActionsTest.php
+END

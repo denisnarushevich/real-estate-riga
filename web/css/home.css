@@ -1,0 +1,208 @@
+/* 
+    Document   : home
+    Created on : Sep 29, 2011, 12:57:31 PM
+    Author     : rainmaker11
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* image slider */
+#slider {
+	margin-top: 12px;
+	border: 10px solid #fff;
+	background: #fff;
+	position: relative;
+}
+
+#slider > #viewPort {
+	height: 380px;
+	width: 940px;
+	overflow: hidden;
+}
+
+#viewPort > #sliderFilm {
+	position: relative;
+	height: 380px;
+	width: 99999px;
+	left: 0px;
+}
+
+#sliderFilm > div {
+	float: left;
+	
+	height: 380px;
+	width: 940px;
+
+	background-image: url('../pic/demo-slider_1.png');		
+}
+
+#sliderFilm > div > img {
+	width: 940px;
+	height: 380px;
+}
+
+#slider div.controls {
+	width: 940px;
+	position: absolute;
+	bottom: 18px;
+	text-align: center;
+	z-index: 99;
+}
+
+#slider div.controls > a {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 0px 3px;
+	background: url('../i/slider-controls.png') left bottom;
+}
+
+#slider div.controls > a:hover, #slider div.controls > a.selected {
+	background: url('../i/slider-controls.png') left top;
+}
+/*  END image slider */
+
+/* content */
+#rightContent > div#cards {
+	margin: 0px -10px;
+	
+	overflow: auto;
+}
+
+#rightContent > div#cards > div.card {
+	float: left;
+	
+	margin: 10px 10px;
+	width: 210px;
+	height: 300px;
+}
+
+#cards > div.card > div.photo {
+	width: 210px;
+	height: 140px;
+	
+	/*background-image: url('../pic/demo-gallery-flat_1.png');*/
+	
+	line-height: 140px; /* for nested image vertical center */
+	text-align: center;
+}
+
+#cards > div.card > div.photo > img {
+	vertical-align: top;
+}
+
+#cards > div.card > div.dataRows > div {
+	height: 24px;
+	border-bottom: 1px dotted #919191;
+	overflow: auto;
+}
+
+#cards > div.card > div.dataRows > div > span {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+#cards > div.card > div.dataRows > div > span.key {
+	float: left;
+	color: #808080;
+}
+
+#cards > div.card > div.dataRows > div > span.value {
+	float: right;
+	color: #222;
+}
+
+
+#cards > div.card > div.foot {
+	overflow: auto;
+	padding-top: 8px;
+}
+
+#cards > div.card > div.foot > div.price {
+	float: left;
+	
+	color: #2e5123;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 25px;	
+}
+
+#cards > div.card > div.foot > a.moreInfo {
+	float: right;
+	
+	width: 85px;
+}
+/* end content */
+
+/* left column */
+#leftColumn > div {}
+
+#leftColumn > h1 {
+	padding: 2px 12px; 
+	text-transform: uppercase;
+	color: #808080;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	background: url('../i/left-column-separator.png') no-repeat bottom;
+	text-shadow: #000 1px 1px 1px;
+}
+
+#leftColumn > div > div.newsInstance {
+	padding: 10px 12px;
+	padding-bottom: 12px;
+	background: url('../i/left-column-separator.png') no-repeat bottom;
+}
+
+#leftColumn > div > div.newsInstance > div.head {
+	overflow: auto;
+}
+
+#leftColumn > div > div.newsInstance > div.head > div.dateDay {
+	float: left;
+	width: 31px;
+	height: 27px;
+	padding-top: 2px;
+	
+	background: url('../i/left-column-news-date-day-field.png');
+	
+	line-height: 27px;
+	font-weight: bold;
+	color: #222;
+	text-align: center;
+}
+
+#leftColumn > div > div.newsInstance > div.head > div.dateMonthYear {
+	float: left;
+	padding-left: 10px;
+	line-height: 29px;
+	font-size: 12px;
+	color: #808080;
+	text-align: center;
+}
+
+#leftColumn > div > div.newsInstance > p {
+	margin-top: 4px;
+	font-size: 12px;
+	color: #999;
+}
+
+#leftColumn > div > div.newsInstance > a.readMore {
+	display: block;
+	height: 16px;
+	padding: 2px 0px 0px 12px;
+	margin-top: 10px;
+	
+	font-size: 12px;
+	line-height: 16px;
+	color: #c0c0c0;
+	background: url('../i/left-column-small-arrow-right.png') no-repeat 0% 50%;
+}
+
+/* end left column */
+

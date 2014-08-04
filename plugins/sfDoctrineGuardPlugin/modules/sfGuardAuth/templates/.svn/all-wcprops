@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates
+END
+secureSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/secureSuccess.php
+END
+signinSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php
+END
+_signin_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php
+END

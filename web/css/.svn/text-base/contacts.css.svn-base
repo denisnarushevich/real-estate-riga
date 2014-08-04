@@ -1,0 +1,153 @@
+#wideContentContainer {
+	padding: 10px 0px 0px 0px;
+}
+
+#wideContentContainer #wideContent {}
+
+#wideContent {
+	padding-bottom: 16px;
+	overflow: hidden;
+}
+
+
+/* left */
+#wideContent .leftContent {
+	float: left;
+	
+	width: 460px;
+}
+
+.leftContent > div {
+	height: 100px;
+}
+
+.leftContent > div > p, .leftContent > div {
+	font-size: 12px;
+	color: #333;
+}
+
+.leftContent > form {
+	display: block;
+	height: auto;
+}
+
+form .field {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	
+	margin-top: 12px;
+}
+
+form .field input {
+	display: block;
+	
+	width: 448px;
+	height: 28px;
+	
+	margin-top: 2px;
+	padding: 0px 5px;
+	
+	border: 1px solid #b8b8b8;
+	
+	background-image: url('../i/field-bg.png');
+	
+	font-size: 12px;
+	color: #333;
+}
+
+form .field textarea {
+	display: block;
+	
+	width: 448px;
+	height: 190px;
+	
+	margin-top: 2px;
+	padding: 5px 5px;
+	
+	border: 1px solid #b8b8b8;
+	
+	background: url('../i/field-bg.png') repeat-x;
+	
+	font-size: 12px;
+	color: #333;
+}
+
+form .sendIt {
+	margin-top: 12px;
+	float: left;
+}
+
+form .sendItResult {
+	height: 25px;
+	margin-top: 12px;
+	margin-left: 16px;
+	color: #799171;
+	float: left;
+	line-height: 25px;
+	width: 200px;
+}
+
+
+/* right */
+#wideContent .rightContent {
+	float: right;
+	
+	width: 460px;
+}
+
+.rightContent > div {
+	height: 122px;
+}
+
+.rightContent > div > p {
+	font-size: 12px;
+	color: #333;
+	line-height: 1.7;
+}
+
+.rightContent > div > p > span {
+	font-size: inherit;
+	color: inherit;
+	font-weight: bold;
+}
+
+.rightContent > div > div.contacts {
+	margin-top: 20px;
+	
+	overflow: hidden;
+}
+
+.rightContent > div > div.contacts > div {
+ width: 50%;
+}
+
+.rightContent > div > div.contacts > div.left {
+	float: left;
+}
+
+.rightContent > div > div.contacts > div.right {
+	float: right;
+}
+
+.rightContent > div > div.contacts > div > div {
+	font-size: 12px;
+	color: #333;	
+	line-height: 1.7;
+}
+
+.rightContent > div > div.contacts > div > div > span {
+	font-size: inherit;
+	color: inherit;
+	font-weight: bold;
+}
+
+
+.rightContent > div.map {
+	margin-top: 10px;
+	
+	width: 460px;
+	height: 410px;
+	
+	background-color: gray;
+}

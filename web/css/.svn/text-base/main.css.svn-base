@@ -1,0 +1,374 @@
+/* 
+    Document   : styles.css
+    Created on : Sep 29, 2011, 10:41:57 AM
+    Author     : rainmaker11
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+* {
+	line-height: 1.5;
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	font-size: 12pt;
+	color:#808080;
+	outline: none;
+	text-decoration: none;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background-image: url('../i/bg.png');
+}
+
+/* HEAD */
+
+#wrap { 
+    display: block;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#wrap #flags {
+	margin-top: 4px;
+	height: 24px;
+}
+
+#wrap #flags a {
+	display: block;
+	
+	float: right;
+	
+	width: 16px;
+	height: 16px;
+	
+	margin-left: 10px;
+	
+	opacity: 0.4;
+	
+	cursor: pointer;
+}
+
+#wrap #flags a:hover {
+	opacity: 1;
+}
+
+#wrap #flags a#ru {
+	background-image: url('../i/flag-ru.png');
+}
+
+#wrap #flags a#en {
+	background-image: url('../i/flag-en.png');
+}
+
+#wrap #flags a#lv {
+	background-image: url('../i/flag-lv.png');
+}
+
+#head {
+	margin-top: 0px;
+	height: 120px;
+}
+
+#head div, #head a {
+	float: left;
+	height: 120px;
+	background-color: #2e5123;
+	font-family: 'open sans condensed';
+	font-weight: 600;
+}
+
+#head div.separator {
+	width: 2px;
+	background-image: url('../i/head-separator.png');
+}
+
+#head a.logo {
+	display: block;
+	width: 165px;
+	background-image: url('../i/head-logo-and-button-hover.png');
+}
+
+#head a.button {
+	height: 44px;
+	display: block;
+	cursor: pointer;
+	padding-top: 76px;
+	
+	text-transform: uppercase;
+	text-align: center;
+	color: #799171;
+	font-size: 18px;
+}
+
+#head a.button:hover, #head a.button.selected {
+	margin-top: -5px;
+	padding-top: 81px;
+	background: url('../i/head-logo-and-button-hover.png') 50% 100%;
+	
+	color: #16300e;
+}
+
+#head a.home {
+	width: 91px;
+}
+
+#head a.appartments {
+	width: 142px;
+}
+
+#head a.houses {
+	width: 102px;
+}
+
+#head a.rent {
+	width: 81px;
+}
+
+#head a.building {
+	width: 116px;
+}
+
+#head a.interior {
+	width: 120px;
+}
+
+#head a.contacts {
+	width: 127px;
+}
+
+/* END HEAD */
+
+/* content blocks */
+#contentWrap {
+	margin-top: 12px;
+	padding: 10px;
+	background: #fff;
+	
+	overflow: auto;
+}
+
+
+
+#contentWrap h1#caption {
+	padding: 2px 10px;
+	background-color: #799171;
+	
+	margin-right: -10px;
+	
+	color: #fff;
+	font-family: 'open sans condensed';
+	font-size: 22px;
+	font-weight: 800;
+	text-transform: uppercase;
+	
+}
+
+#contentWrap h1#caption.inactive div.inactive {
+	margin: -2px 0px;
+	padding: 2px 0px;
+
+	padding-right: 8px;
+	
+	color: #a0b898;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	text-transform: uppercase;
+	
+	background: url('../i/caption-separator.png') repeat-y right;
+}
+
+#contentWrap h1#caption.inactive div,#contentWrap h1#caption.inactive a {
+	display: block;
+	
+	padding-left: 12px;
+	display: inline-block;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	color: #fff;
+	background: url('../i/gallery-prev-arrow.png') no-repeat 3% 50%;
+}
+
+#contentWrap h1#caption.inactive a:hover {
+	background: url('../i/gallery-prev-arrow.png') no-repeat 0% 50%;
+}
+
+#contentWrap #leftColumnContainer {
+	width: 250px;
+	float: left;
+}
+
+#contentWrap #leftColumn {
+	background-color: #272727;
+}
+
+#contentWrap .additionalLeftColumns {
+	background-color: #272727;
+}
+
+
+
+#contentWrap #rightColumnContainer {
+	width: 250px;
+	float: right;
+}
+
+#contentWrap #rightColumn {
+	background-color: #272727;
+}
+
+#contentWrap .additionalRightColumns {
+	background-color: #272727;
+}
+
+
+
+#contentWrap #rightContentContainer {
+	width: 670px;
+	float: right;
+}
+
+#contentWrap #rightContent {}
+
+
+
+#contentWrap #leftContentContainer {
+	width: 670px;
+	float: left;
+}
+
+#contentWrap #leftContent {
+	
+}
+
+
+
+#contentWrap #wideContentContainer {
+}
+
+#contentWrap #wideContentContainer #wideContent {
+}
+/* end content blocks */
+
+
+/* footer */
+#foot {
+	overflow: auto;
+}
+
+#foot > div {
+	float: right;
+	height: 80px;
+	line-height: 80px;
+	color: #fff;
+	font-size: 12px;
+}
+
+#foot > div:first-child {
+	float: left;
+}
+
+#foot > div > a {
+	color: #fff;
+	font-size: 12px;	
+}
+
+#foot > div > a:hover {
+	color: #799171;
+	font-size: 12px;
+}
+
+#foot > div > div {
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	margin: 0px 10px;
+	vertical-align: middle;
+	background-color: #4e7541;
+}
+/* end footer */
+
+/* ads */
+#ads {
+	padding: 10px 0px;
+}
+
+#ads .ad img {
+	display: block;
+	margin-bottom: 10px;
+}
+/* end ads */
+
+/* other global */
+.greenGlossyButton {
+	display: block;
+	height: 25px;
+	padding: 0px 12px;
+	
+	cursor: pointer;
+	
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 25px;
+	
+	border: 1px solid #2e5123;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	
+	background-image: url('../i/card-more-info-button-bg.png');
+}
+
+.greenGlossyButton:hover {
+	background-position: bottom;
+	border-color: #183b0d;
+}
+
+/* modale box style */
+div.modale {
+	width: 670px;
+	padding: 10px;
+	background-color: #fff;
+}
+
+div.modale > h1 {
+	padding: 2px 10px;
+	background-color: #799171;
+	margin-right: -10px;
+	color: white;
+	font-family: 'open sans condensed';
+	font-size: 22px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+div.modale > div {
+	padding-top: 10px;
+	color: #333;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+div.modale > div * {
+	color: #333;
+	font-size: 12px;
+	line-height: 1.5;
+}
+/* end modale */

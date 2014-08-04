@@ -1,0 +1,22 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           listing
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          listing
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        display: [id, price, City, Location, street, is_house, area, land_area, rooms, floors, floor, is_renovated, is_furnished, for_rent, is_active, has_videos, num_views, google_map_location, main_photo, updated_at]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

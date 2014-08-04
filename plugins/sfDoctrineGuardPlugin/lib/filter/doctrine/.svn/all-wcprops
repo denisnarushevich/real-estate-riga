@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/filter/doctrine
+END
+PluginsfGuardGroupFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/filter/doctrine/PluginsfGuardGroupFormFilter.class.php
+END
+PluginsfGuardUserFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/filter/doctrine/PluginsfGuardUserFormFilter.class.php
+END
+PluginsfGuardPermissionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/!svn/ver/4586/project/realestateriga/trunk/plugins/sfDoctrineGuardPlugin/lib/filter/doctrine/PluginsfGuardPermissionFormFilter.class.php
+END

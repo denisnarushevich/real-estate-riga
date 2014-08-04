@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump
+END
+realestate_city.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_city.sql
+END
+realestate_listing_translation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_listing_translation.sql
+END
+realestate_messages.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_messages.sql
+END
+realestate_news.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_news.sql
+END
+realestate_advert.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_advert.sql
+END
+realestate_location.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_location.sql
+END
+realestate_slider_photos.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_slider_photos.sql
+END
+realestate_text_page.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_text_page.sql
+END
+realestate_listing.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_listing.sql
+END
+realestate_trans_unit.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_trans_unit.sql
+END
+realestate_city_translation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_city_translation.sql
+END
+realestate_migration_version.sql
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_migration_version.sql
+END
+realestate_catalogue.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_catalogue.sql
+END
+realestate_property_photos.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_property_photos.sql
+END
+realestate_news_translation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_news_translation.sql
+END
+realestate_advert_translation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_advert_translation.sql
+END
+realestate_location_translation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_location_translation.sql
+END
+realestate_text_page_translation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/4586/project/realestateriga/trunk/data/sql/dump/realestate_text_page_translation.sql
+END

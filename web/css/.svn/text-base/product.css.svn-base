@@ -1,0 +1,291 @@
+#leftContent #bigPhotos {
+	margin-top: 10px;
+	width: 100%;
+	background-color: #e6e6e6;
+}
+
+#bigPhotos > img {
+	display: block;
+	min-height: 400px;
+	width: inherit;
+}
+
+#leftContent .dottedSeparator {
+	margin: 12px 0px;
+	
+	border-bottom: 1px dotted #919191;
+}
+
+
+
+#leftContent #thumbnails {
+	overflow: hidden;
+	height: 120px;
+	position: relative;
+}
+
+#thumbnails > div#photosContainer {
+	margin: 0px -5px;
+	position: absolute;
+	left: 0px;
+	height: inherit;
+	width: 99999px;
+}
+
+#thumbnails > div#photosContainer > a {
+	display: block;
+	float: left;
+	height: 120px;
+}
+
+#thumbnails > div#photosContainer > a > img {
+	display: block;
+	height: inherit;
+	cursor: pointer;
+	padding: 0px 5px;
+}
+
+#thumbnails > div#photosContainer > a:hover > img {
+	opacity: 0.8;
+}
+
+
+
+#infoContainer {
+	margin-top: 10px;
+	
+	overflow: hidden;
+}
+
+
+#infoContainer div.fields {
+	position: relative;
+	
+	float: left;
+	
+	width: 330px;
+	height: 300px;
+}
+
+#infoContainer div.fields div.field {
+	height: 22px;
+	border-bottom: 1px dotted #919191;
+	overflow: auto;
+}
+
+#infoContainer div.fields div.field span {
+	font-size: 12px;
+	line-height: 22px;	
+}
+	
+#infoContainer div.fields div.field span.key {
+	float: left;
+	color: gray;
+}
+
+#infoContainer div.fields div.field span.value {
+	float: right;
+	color: #222;
+}
+
+#infoContainer div.fields div.price {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	
+	width: 110px;
+	height: 30px;
+	
+	margin-top: 14px;
+	
+	background-color: #2e5123;
+	
+	text-align: center;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+#infoContainer div.map {
+	float: right;
+	
+	width: 330px;
+	height: 300px;
+	
+	background-color: #e6e6e6;
+	
+	color: #333;
+	line-height: 300px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#textInfoContainer {
+	margin-top: 10px;
+}
+
+#textInfoContainer h2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #272727;
+}
+
+#textInfoContainer p {
+	margin-top: 6px;
+	font-size: 12px;
+	color: #272727;
+}
+
+/* right column */
+#rightColumnContainer {
+	padding: 10px 0px;
+}
+
+#rightColumn > h1 {
+	padding: 6px 12px;
+	text-transform: uppercase;
+	color: gray;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	background: url('../i/left-column-separator.png') no-repeat bottom;
+	text-shadow: black 1px 1px 1px;
+}
+
+#rightColumn > form {
+	padding: 12px 12px;
+}
+
+#rightColumn > form > div.space {
+	height: 10px;
+}
+
+#rightColumn > form > div.fieldRow {
+	padding: 0px 0px 6px 0px;
+	
+	font-size: 12px;
+	text-align: left;
+}
+
+#rightColumn > form > div.fieldRow input {
+	width: 226px;
+	height: 18px;
+	
+	margin-top: 3px;
+	
+	font-size: 12px;
+}
+
+#rightColumn > form > div.fieldRow textarea {
+	width: 226px;
+	height: 120px;
+	
+	margin-top: 3px;
+	
+	font-size: 12px;
+}
+
+#rightColumn > form > div.checkRow {
+	padding: 6px 0px;
+	font-size: 12px;
+	line-height: 12px;
+	text-indent: 6px;
+}
+
+#rightColumn > form > div.checkRow input {
+	display: block;
+	float: left;
+}
+
+#rightColumn > form > a.sendIt {
+	width: 140px;
+}
+
+
+#rightColumnContainer .additionalRightColumns > h1 {
+	margin-top: 10px;
+	
+	padding: 6px 12px;
+	text-transform: uppercase;
+	color: gray;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	background: url('../i/left-column-separator.png') no-repeat bottom;
+	text-shadow: black 1px 1px 1px;
+}
+
+#rightColumnContainer .additionalRightColumns > h1 > span {
+	text-transform: uppercase;
+	color: #cecece;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-family: 'open sans condensed';
+	font-weight: 800;
+	font-size: 22px;
+	text-shadow: black 1px 1px 1px;
+}
+
+#rightColumnContainer .additionalRightColumns > div {
+	padding: 10px 12px;
+	
+	padding-bottom: 12px;
+	
+	background: url('../i/left-column-separator.png') no-repeat bottom;
+}
+
+#rightColumnContainer .additionalRightColumns > div > a {
+	display: block;
+	
+	width: 226px;
+	
+	background-color: #444;
+	
+	position: relative;
+	
+	cursor: pointer;
+}
+
+#rightColumnContainer .additionalRightColumns > div > a > img {
+	display: block;
+	width: inherit;
+	margin: 0 auto;
+}	
+
+#rightColumnContainer .additionalRightColumns > div > a > div.price {
+	position: absolute;
+	bottom: 28px;
+	right: 0px;
+	
+	padding: 2px 10px;
+	
+	background-color: #2e5123;
+	
+	color: #fff;
+	font-size: 14px;
+}
+
+#rightColumnContainer .additionalRightColumns > div > a > div.price span {
+	color: inherit;
+	font-size: inherit;
+	font-weight: bold;	
+}
+
+#rightColumnContainer .additionalRightColumns > div > a > div.area {
+	position: absolute;
+	bottom: 6px;
+	right: 0px;
+	
+	padding: 2px 10px;
+
+	background-color: #2e5123;
+	
+	color: #fff;
+	font-size: 11px;
+}
+/* end right column */
